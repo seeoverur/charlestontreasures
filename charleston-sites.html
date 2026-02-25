@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Charleston Sites | Charleston Treasures</title>
+  <meta name="description" content="Explore Charleston sites, local spots, and partner locations worth visiting around Charleston, SC." />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .site-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+    }
+    .card { border: 0; box-shadow: 0 10px 30px rgba(0,0,0,.08); border-radius: 1rem; }
+  </style>
+</head>
+
+<body class="bg-light">
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Charleston Treasures</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="restaurants.html">Restaurants</a></li>
+          <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
+          <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+          <li class="nav-item"><a class="nav-link active" href="charleston-sites.html">Charleston Sites</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="container py-5">
+    <h1 class="display-5 fw-bold mb-3">Charleston Sites</h1>
+    <p class="text-secondary">
+      A collection of Charleston-area spots, local businesses, and partner sites worth visiting. From scenic landmarks to hidden gems, this page highlights places that add to the Charleston experience.
+    </p>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container pb-5">
+
+    <!-- Intro / Partner Section -->
+    <section class="mb-5">
+      <div class="card p-4 p-lg-5">
+        <h2 class="h4 mb-3">Local Spots & Partner Highlights</h2>
+        <p class="text-secondary">
+          Charleston is built on local culture—small businesses, walkable streets, and places that feel personal. This section is designed to highlight both well-known sites and partner locations that visitors and locals can enjoy. Whether it’s a waterfront view, a quiet park, or a local business worth supporting, these are the kinds of places that define the area.
+        </p>
+        <p class="text-secondary mb-0">
+          Over time, this page will grow to include more local partners, recommended stops, and go-to spots across Charleston, Isle of Palms, Folly Beach, and surrounding areas.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sites List -->
+    <section>
+      <h2 class="h4 mb-3">Places to Visit</h2>
+      <ul class="site-list list-unstyled">
+
+        <li>Waterfront Park</li>
+        <li>Rainbow Row</li>
+        <li>The Battery & White Point Garden</li>
+        <li>King Street (Shopping & Dining)</li>
+        <li>Charleston City Market</li>
+        <li>Folly Beach Pier</li>
+        <li>Isle of Palms Beach</li>
+        <li>Sullivan’s Island Beach</li>
+        <li>Arthur Ravenel Jr. Bridge</li>
+        <li>Hampton Park</li>
+        <li>Mount Pleasant Memorial Waterfront Park</li>
+        <li>Patriots Point Naval & Maritime Museum</li>
+        <li>Boone Hall Plantation Grounds</li>
+        <li>Magnolia Plantation & Gardens</li>
+        <li>Middleton Place</li>
+        <li>Angel Oak Tree (Johns Island)</li>
+        <li>Folly Beach County Park</li>
+        <li>Isle of Palms County Park</li>
+        <li>Charleston Harbor Walk</li>
+        <li>Summerville Historic District</li>
+
+      </ul>
+    </section>
+
+    <!-- Future Expansion -->
+    <section class="mt-5 text-center">
+      <p class="text-secondary">
+        This list will continue to grow with more local recommendations and partner features.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-top">
+    <div class="container py-4 text-center">
+      <div class="fw-semibold">Charleston Treasures</div>
+      <div class="small text-secondary">Local Sites • Partner Spots • Charleston, SC</div>
+      <div class="small text-secondary mt-2">© <span id="year"></span></div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

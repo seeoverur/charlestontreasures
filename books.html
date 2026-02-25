@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Books | Charleston Treasures</title>
+  <meta name="description" content="A curated list of the best recipe and cookbook titles to inspire your kitchen." />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .book-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+    }
+  </style>
+</head>
+
+<body class="bg-light">
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Charleston Treasures</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Index</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="restaurants.html">Restaurants</a></li>
+          <li class="nav-item"><a class="nav-link active" href="books.html">Books</a></li>
+          <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+          <li class="nav-item"><a class="nav-link" href="charleston-sites.html">Charleston Sites</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="container py-5">
+    <h1 class="display-5 fw-bold mb-3">Best Recipe & Cookbook Picks</h1>
+    <p class="text-secondary">
+      A simple list of some of the most respected and useful cookbooks—great for everyday cooking, learning techniques, and finding inspiration.
+    </p>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container pb-5">
+    <ul class="book-list list-unstyled">
+
+      <li>Salt, Fat, Acid, Heat – Samin Nosrat</li>
+      <li>The Complete America’s Test Kitchen TV Show Cookbook</li>
+      <li>How to Cook Everything – Mark Bittman</li>
+      <li>The Joy of Cooking – Irma S. Rombauer</li>
+      <li>Essentials of Classic Italian Cooking – Marcella Hazan</li>
+      <li>The Complete Mediterranean Cookbook – America’s Test Kitchen</li>
+      <li>Half Baked Harvest Cookbook – Tieghan Gerard</li>
+      <li>The Skinnytaste Cookbook – Gina Homolka</li>
+      <li>Cravings – Chrissy Teigen</li>
+      <li>Mastering the Art of French Cooking – Julia Child</li>
+      <li>The Barefoot Contessa Cookbook – Ina Garten</li>
+      <li>Modern Comfort Food – Ina Garten</li>
+      <li>Franklin Barbecue: A Meat-Smoking Manifesto – Aaron Franklin</li>
+      <li>Magnolia Table – Joanna Gaines</li>
+      <li>The Pioneer Woman Cooks – Ree Drummond</li>
+      <li>Cook Like a Pro – Ina Garten</li>
+      <li>The Defined Dish Cookbook – Alex Snodgrass</li>
+      <li>Eat What You Love – Danielle Walker</li>
+      <li>The Flavor Bible – Karen Page & Andrew Dornenburg</li>
+      <li>On Food and Cooking – Harold McGee</li>
+      <li>Six Seasons: A New Way with Vegetables – Joshua McFadden</li>
+      <li>Simple – Yotam Ottolenghi</li>
+      <li>Plenty – Yotam Ottolenghi</li>
+      <li>Jerusalem – Yotam Ottolenghi & Sami Tamimi</li>
+      <li>The Complete Cooking for Two Cookbook – America’s Test Kitchen</li>
+      <li>The Blue Zones Kitchen – Dan Buettner</li>
+      <li>Cook This Book – Molly Baz</li>
+      <li>Nothing Fancy – Alison Roman</li>
+      <li>Dining In – Alison Roman</li>
+      <li>Where Cooking Begins – Carla Lalli Music</li>
+      <li>Good Eats: The Early Years – Alton Brown</li>
+      <li>Start Here – Sohla El-Waylly</li>
+      <li>Run Fast. Eat Slow. – Shalane Flanagan</li>
+      <li>The Plant-Based Diet for Beginners – Gabriel Miller</li>
+      <li>The Southern Living Cookbook</li>
+      <li>The Complete Southern Cookbook – America’s Test Kitchen</li>
+      <li>Rodney Scott’s World of BBQ – Rodney Scott</li>
+      <li>Smoke & Pickles – Edward Lee</li>
+      <li>Deep Run Roots – Vivian Howard</li>
+      <li>Sean Brock: Heritage – Sean Brock</li>
+
+    </ul>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-top">
+    <div class="container py-4 text-center">
+      <div class="fw-semibold">Charleston Treasures</div>
+      <div class="small text-secondary">Recipe Books & Cooking Inspiration</div>
+      <div class="small text-secondary mt-2">© <span id="year"></span></div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
